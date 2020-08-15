@@ -1,0 +1,71 @@
+h1 {
+    color: white;
+    padding-left: 100px;
+}
+.menu{
+    padding-right: 100px;
+}
+.menu a{
+    margin-left: 100px;
+}
+.item{
+    position: relative;
+
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+opacity: -9;
+}
+.origami:hover{
+transform: scale(1,2);
+}
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    border: 2px solid #000000;
+    display: flex;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.origami{
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: yellow;
+}
